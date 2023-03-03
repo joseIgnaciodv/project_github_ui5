@@ -1,0 +1,10 @@
+<mvc:View controllerName="projectgithubui5.controller.Repositorios" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" displayBlock="true" xmlns="sap.m">
+    <Page id="page" title="Repositorios Github">
+    <List id="list" items="{/}">
+        <items>
+            <StandardListItem id="_IDGenStandardListItem1"  title="{name}" type="Navigation" press=".viewRepo"></StandardListItem>
+        </items>
+    </List>
+        <content />
+    </Page>
+</mvc:View>
